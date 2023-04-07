@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-**
+/**
  * binary_to_uint - A finction that converts binary number
  * to an unsigned integer
  * @b: A pointer to binary string
@@ -29,4 +29,3 @@ unsigned int binary_to_uint(const char *b)
 	}
 	return (result);
 }
-
